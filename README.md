@@ -3,16 +3,6 @@ ELECA（エレカ）は**CC BY-SA4.0ライセンス**で**名刺デザイン**�
 LIGHTCAFE LAB ELECA 作品ページはこちら<br>
 https://lab.lightcafe.co.jp/work/eleca<br>
 
-## hardware
-ELECA付属のハードウェアです<br>
-
-*3d-print-options*<br>
-3DプリントできるELECA専用スタンドです<br>
-
-*acryl-cover*<br>
-ELECAの専用アクリルカバーです<br>
-標準的なdxfファイルとsmartDIYsのレーザー加工機で使えるプロジェクトファイルがあります<br>
-
 ## firmware
 ELECAに書き込むArduinoのサンプルスケッチです<br>
 給電すると動作がはじまります<br>
@@ -26,6 +16,15 @@ Bluetoothの子機（peripheral）になります<br>
 *eleca-stand*<br>
 レインボーが流れていきます<br>
 
+## hardware
+ELECA付属のハードウェアです<br>
+
+*3d-print-options*<br>
+3DプリントできるELECA専用スタンドです<br>
+
+*acryl-cover*<br>
+ELECAの専用アクリルカバーです<br>
+標準的なdxfファイルとsmartDIYsのレーザー加工機で使えるプロジェクトファイルがあります<br>
 ## pcb
 KiCad (v6.0.10)を使用した回路図と基板図です<br>
 
