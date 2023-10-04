@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\lc\kicad\pcb-kicad-lc-library\projects\203-business-card\20230929-release\ELECA\pcb\ELECA.kicad_sch</source>
+    <date>2023/09/29 17:26:55</date>
+    <tool>Eeschema (6.0.10)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ELECA.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7914f27d-6d56-45a6-95d7-206ea119545a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cd8fef8-f329-42dc-9bd0-c798be074dbf</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50530733-9f04-4b6e-a218-e6c578ec0f9e</tstamps>
+    </comp>
+    <comp ref="CN1">
+      <value>CON_USB-CPCBPLUG</value>
+      <footprint>203-business-card:USB-C_PCBPLUG</footprint>
+      <libsource lib="203-business-card" part="CON_USB-CPCBPLUG" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c184cbc-95f2-4ae7-96a9-c80be07a1bd4</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>XC6220B331MR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.torexsemi.com/file/xc6220/XC6220.pdf</datasheet>
+      <libsource lib="203-business-card" part="XC6220B331MR" description="1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f567dc55-293a-4588-b9c9-7eac9e8ff47b</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>ESP32-C3-MINI-1-H4</value>
+      <footprint>203-business-card:XCVR_ESP32-C3-MINI-1-N4</footprint>
+      <libsource lib="203-business-card" part="ESP32-C3-MINI-1-H4" description=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="PARTREV" value=""/>
+      <property name="STANDARD" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a4fce02-5192-42dc-bded-a6730b7281ed</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>pin_0205_CCW</value>
+      <footprint>203-business-card:hachi-8080-10pin-mount-for-ELECA</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Counter_Clockwise" description="Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>972c6d26-a310-412e-8b7c-86c46ad1eed2</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>pin_0205_CCW</value>
+      <footprint>203-business-card:hachi-8080-10pin-mount-for-ELECA</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Counter_Clockwise" description="Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87c1c3ca-00a1-472e-9fd6-8eac40d081aa</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04_Male</value>
+      <footprint>203-business-card:1×04_pinhead_smd</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8c87cce-a9b5-4c21-973d-acbc6dd4c494</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04_Male</value>
+      <footprint>203-business-card:1×04_pinhead_smd</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7851dc9-1b8e-49f8-a197-f0f0c9650b5b</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e8309a4-518a-4463-a9ca-d95ce35d0a66</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b604c16-4ba8-475d-95a7-584d0c3eec6e</tstamps>
+    </comp>
+    <comp ref="LED3">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37418cdf-e5f2-462b-8b79-5c08e1ca70be</tstamps>
+    </comp>
+    <comp ref="LED4">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f3bfbe0-c824-4cf9-bd38-3ae60a241929</tstamps>
+    </comp>
+    <comp ref="LED5">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f09d2e79-eb1a-4139-aed2-487640d380f5</tstamps>
+    </comp>
+    <comp ref="LED6">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcff59ed-9927-4c1a-8947-e36c982d4888</tstamps>
+    </comp>
+    <comp ref="LED7">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4af7825-622f-4721-9420-d8598fbb98ba</tstamps>
+    </comp>
+    <comp ref="LED8">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a72d5d67-ecf8-4099-8c24-632335bcd119</tstamps>
+    </comp>
+    <comp ref="LED9">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18fb2461-9db7-40b0-a839-49a1cc4eadee</tstamps>
+    </comp>
+    <comp ref="LED10">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79735dd6-16f1-4fd6-a1d8-a752604cb129</tstamps>
+    </comp>
+    <comp ref="LED11">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70e88727-a9c1-42a1-951b-b15ddf87ebce</tstamps>
+    </comp>
+    <comp ref="LED12">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb1ec345-716c-4174-a663-b76f448f3311</tstamps>
+    </comp>
+    <comp ref="LED13">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b183b96-635d-4f19-b758-aa9df879c29d</tstamps>
+    </comp>
+    <comp ref="LED14">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c749eb0b-1c92-436e-9c75-4f6ba5f4f467</tstamps>
+    </comp>
+    <comp ref="LED15">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4d4cab6-424b-48f6-9f34-06c516c1314f</tstamps>
+    </comp>
+    <comp ref="LED16">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>519086a8-77e3-4f63-9a14-7d81c92017e3</tstamps>
+    </comp>
+    <comp ref="LED17">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b130bd20-6b5d-49c4-8766-a283a3396921</tstamps>
+    </comp>
+    <comp ref="LED18">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1d52c8b-ad50-4f52-b0e2-bb659aaa21b0</tstamps>
+    </comp>
+    <comp ref="LED19">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7366ea33-2db0-4a56-b1af-23190de4eb16</tstamps>
+    </comp>
+    <comp ref="LED20">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>525d90a7-9952-4388-a9c9-cb9dc17799a1</tstamps>
+    </comp>
+    <comp ref="LED21">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b5cef52-7b1b-4469-a714-b6fef555b690</tstamps>
+    </comp>
+    <comp ref="LED22">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a82ad529-3d35-4074-9085-bc565a21407d</tstamps>
+    </comp>
+    <comp ref="LED23">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46f73e7f-bd23-4dcf-a1ea-dc2bbb7af98a</tstamps>
+    </comp>
+    <comp ref="LED24">
+      <value>HD107S-2020</value>
+      <footprint>203-business-card:HD107S-2020</footprint>
+      <libsource lib="203-business-card" part="HD107S-2020" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>467c003e-3d72-4e06-aa7e-a084da30398a</tstamps>
+    </comp>
+    <comp ref="LED25">
+      <value>IN-S63AS</value>
+      <footprint>203-business-card:IN-S63AS5UW</footprint>
+      <libsource lib="" part="IN-S63AS_1" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e72f7b2e-c9f7-4d9a-989d-b75000c1f99b</tstamps>
+    </comp>
+    <comp ref="LED26">
+      <value>IN-S63AS</value>
+      <footprint>203-business-card:IN-S63AS5UW</footprint>
+      <libsource lib="203-business-card" part="IN-S63AS" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d4acd55-86ed-478f-90c2-90bf5125770d</tstamps>
+    </comp>
+    <comp ref="LED27">
+      <value>IN-S63AS</value>
+      <footprint>203-business-card:IN-S63AS5UW</footprint>
+      <libsource lib="203-business-card" part="IN-S63AS" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c618a356-1363-4554-925b-868d93be7db6</tstamps>
+    </comp>
+    <comp ref="LED28">
+      <value>IN-S63AS</value>
+      <footprint>203-business-card:IN-S63AS5UW</footprint>
+      <libsource lib="203-business-card" part="IN-S63AS" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dba73949-b098-4da3-9024-56f04de7a17b</tstamps>
+    </comp>
+    <comp ref="LED29">
+      <value>IN-S63AS</value>
+      <footprint>203-business-card:IN-S63AS5UW</footprint>
+      <libsource lib="203-business-card" part="IN-S63AS" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>627c829d-6a24-4b50-9fc8-5f4955807ede</tstamps>
+    </comp>
+    <comp ref="LED30">
+      <value>IN-S63AS</value>
+      <footprint>203-business-card:IN-S63AS5UW</footprint>
+      <libsource lib="203-business-card" part="IN-S63AS" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfe4e3ae-4762-40c5-8c62-51c44cf66200</tstamps>
+    </comp>
+    <comp ref="LED31">
+      <value>IN-S63AS</value>
+      <footprint>203-business-card:IN-S63AS5UW</footprint>
+      <libsource lib="203-business-card" part="IN-S63AS" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ca3eb98-b017-48a9-9faa-d736c6a74144</tstamps>
+    </comp>
+    <comp ref="LED32">
+      <value>IN-S63AS</value>
+      <footprint>203-business-card:IN-S63AS5UW</footprint>
+      <libsource lib="203-business-card" part="IN-S63AS" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e7234e5-f40d-41fe-97fa-226e3b382f02</tstamps>
+    </comp>
+    <comp ref="PL1">
+      <value>SMD1206B025TF</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="203-business-card" part="POLY_SW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8208581-1a44-4324-8b13-9b7bd351e928</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PDTC114ET215</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <libsource lib="203-business-card" part="PDTC114ET215" description="Digital NPN Transistor, 10k/10k, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34b5652d-10ff-4352-9d36-8c43099ba72e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0fd29ed-eba3-40a8-96ca-77c982b5324c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d1f61cb-b60d-48e4-b33d-5c91e5247e40</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ccea189-0f4f-4111-be8e-f92c3713dc19</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3593966-e261-4e45-ae35-1112dfbfdce3</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d8687dd-f50b-4b6e-8c87-4bdd02eddff4</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c28908b6-f504-476f-b51d-4d76a01e539c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a7afa2c-27f8-45b1-a752-ccd33a05ef8f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dec8466-4a78-40de-a50c-b5a72bd34181</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16f81530-7a4e-40d7-8ddc-0eebef50d619</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17bcbc7c-1cfb-463a-96f2-85fbb7d57301</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e70fdb27-5750-4b7a-b349-0dcdd8d43af0</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7300ae4-4120-4520-bb71-b62230b1c727</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4f2b63c-6fb9-4619-aa79-19959661adec</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f423d5a7-c130-451e-9b67-be6bffa84cb9</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0684accf-96ed-4e08-832f-4c408e498cdc</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28f2f9ab-2075-47dc-8f18-7497d427750f</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48be96eb-8668-4f0a-8fbb-418c2dfa5062</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>539f48e2-47e7-4f74-8694-4b2ad437416d</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ELECA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82f23bd7-2089-4460-9520-6062684285a0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="IN-S63AS_1">
+      <description>940nm IR-LED, 5mm</description>
+      <footprints>
+        <fp>LED*5.0mm*IRGrey*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED25</field>
+        <field name="Value">IN-S63AS_1</field>
+        <field name="Footprint">203-business-card:IN-S63AS5UW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="203-business-card" part="CON_USB-CPCBPLUG">
+      <fields>
+        <field name="Reference">CN2</field>
+        <field name="Value">CON_USB-CPCBPLUG</field>
+        <field name="Footprint">busicard_v1:USB-C_PCBPLUG</field>
+      </fields>
+      <pins>
+        <pin num="P$A1" name="GND1" type="bidirectional"/>
+        <pin num="P$A2" name="TX1+" type="bidirectional"/>
+        <pin num="P$A3" name="TX1-" type="bidirectional"/>
+        <pin num="P$A4" name="VBUS1" type="bidirectional"/>
+        <pin num="P$A5" name="CC1" type="bidirectional"/>
+        <pin num="P$A6" name="D+1" type="bidirectional"/>
+        <pin num="P$A7" name="D-1" type="bidirectional"/>
+        <pin num="P$A8" name="SBU1" type="bidirectional"/>
+        <pin num="P$A9" name="VBUS2" type="bidirectional"/>
+        <pin num="P$A10" name="RX2-" type="bidirectional"/>
+        <pin num="P$A11" name="RX2+" type="bidirectional"/>
+        <pin num="P$A12" name="GND2" type="bidirectional"/>
+        <pin num="P$B1" name="GND3" type="bidirectional"/>
+        <pin num="P$B2" name="TX2+" type="bidirectional"/>
+        <pin num="P$B3" name="TX2-" type="bidirectional"/>
+        <pin num="P$B4" name="VBUS3" type="bidirectional"/>
+        <pin num="P$B5" name="CC2" type="bidirectional"/>
+        <pin num="P$B6" name="D+2" type="bidirectional"/>
+        <pin num="P$B7" name="D-2" type="bidirectional"/>
+        <pin num="P$B8" name="SBU2" type="bidirectional"/>
+        <pin num="P$B9" name="VBUS4" type="bidirectional"/>
+        <pin num="P$B10" name="RX1-" type="bidirectional"/>
+        <pin num="P$B11" name="RX1+" type="bidirectional"/>
+        <pin num="P$B12" name="GND4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="203-business-card" part="ESP32-C3-MINI-1-H4">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ESP32-C3-MINI-1-H4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="3V3" type="power_in"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="IO2" type="bidirectional"/>
+        <pin num="6" name="IO3" type="bidirectional"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="EN" type="input"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="IO0" type="bidirectional"/>
+        <pin num="13" name="IO1" type="bidirectional"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="NC" type="no_connect"/>
+        <pin num="16" name="IO10" type="bidirectional"/>
+        <pin num="17" name="NC" type="no_connect"/>
+        <pin num="18" name="IO4" type="bidirectional"/>
+        <pin num="19" name="IO5" type="bidirectional"/>
+        <pin num="20" name="IO6" type="bidirectional"/>
+        <pin num="21" name="IO7" type="bidirectional"/>
+        <pin num="22" name="IO8" type="bidirectional"/>
+        <pin num="23" name="IO9" type="bidirectional"/>
+        <pin num="24" name="NC" type="no_connect"/>
+        <pin num="25" name="NC" type="no_connect"/>
+        <pin num="26" name="USB_D-_IO18" type="bidirectional"/>
+        <pin num="27" name="USB_D+_IO19" type="bidirectional"/>
+        <pin num="28" name="NC" type="no_connect"/>
+        <pin num="29" name="NC" type="no_connect"/>
+        <pin num="30" name="RXD0" type="bidirectional"/>
+        <pin num="31" name="TXD0" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="NC" type="no_connect"/>
+        <pin num="34" name="NC" type="no_connect"/>
+        <pin num="35" name="NC" type="no_connect"/>
+        <pin num="36" name="GND" type="power_in"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="GND" type="power_in"/>
+        <pin num="41" name="GND" type="power_in"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="GND" type="power_in"/>
+        <pin num="45" name="GND" type="power_in"/>
+        <pin num="46" name="GND" type="power_in"/>
+        <pin num="47" name="GND" type="power_in"/>
+        <pin num="48" name="GND" type="power_in"/>
+        <pin num="49_1" name="GND" type="power_in"/>
+        <pin num="49_2" name="GND" type="power_in"/>
+        <pin num="49_3" name="GND" type="power_in"/>
+        <pin num="49_4" name="GND" type="power_in"/>
+        <pin num="49_5" name="GND" type="power_in"/>
+        <pin num="49_6" name="GND" type="power_in"/>
+        <pin num="49_7" name="GND" type="power_in"/>
+        <pin num="49_8" name="GND" type="power_in"/>
+        <pin num="49_9" name="GND" type="power_in"/>
+        <pin num="50" name="GND" type="power_in"/>
+        <pin num="51" name="GND" type="power_in"/>
+        <pin num="52" name="GND" type="power_in"/>
+        <pin num="53" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="203-business-card" part="HD107S-2020">
+      <description>RGB LED with integrated controller</description>
+      <footprints>
+        <fp>LED*APA102*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">HD107S-2020</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="CKO" type="output"/>
+        <pin num="3" name="SDO" type="output"/>
+        <pin num="4" name="SDI" type="input"/>
+        <pin num="5" name="CKI" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="203-business-card" part="IN-S63AS">
+      <description>940nm IR-LED, 5mm</description>
+      <footprints>
+        <fp>LED*5.0mm*IRGrey*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">IN-S63AS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="203-business-card" part="PDTC114ET215">
+      <description>Digital NPN Transistor, 10k/10k, SOT-23</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>SC?59*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PDTC114ET215</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="203-business-card" part="POLY_SW">
+      <fields>
+        <field name="Reference">PL</field>
+        <field name="Value">POLY_SW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="203-business-card" part="XC6220B331MR">
+      <description>1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5</description>
+      <docs>https://www.torexsemi.com/file/xc6220/XC6220.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">XC6220B331MR</field>
+        <field name="Datasheet">https://www.torexsemi.com/file/xc6220/XC6220.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CE" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Counter_Clockwise">
+      <description>Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="203-business-card">
+      <uri>C:/lc/kicad/pcb-kicad-lc-library/symbols/203-business-card.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\lc\kicad\symbols/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\lc\kicad\symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\lc\kicad\symbols/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="IC2" pin="3" pinfunction="3V3" pintype="power_in"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="IC1" pin="3" pinfunction="CE" pintype="input"/>
+      <node ref="LED1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED10" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED11" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED12" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED13" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED14" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED15" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED16" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED17" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED18" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED19" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED20" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED21" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED22" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED23" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED24" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED4" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED5" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED6" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED7" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED8" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED9" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="PL1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/D+">
+      <node ref="CN1" pin="P$A6" pinfunction="D+1" pintype="bidirectional"/>
+      <node ref="CN1" pin="P$B6" pinfunction="D+2" pintype="bidirectional"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/D-">
+      <node ref="CN1" pin="P$A7" pinfunction="D-1" pintype="bidirectional"/>
+      <node ref="CN1" pin="P$B7" pinfunction="D-2" pintype="bidirectional"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/ESP_EN">
+      <node ref="IC2" pin="8" pinfunction="EN" pintype="input"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/EXT_CKO">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="LED24" pin="2" pinfunction="CKO" pintype="output"/>
+    </net>
+    <net code="7" name="/EXT_SDO">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="LED24" pin="3" pinfunction="SDO" pintype="output"/>
+    </net>
+    <net code="8" name="/HD_C">
+      <node ref="LED10" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED11" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="9" name="/HD_C2">
+      <node ref="LED20" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED21" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="10" name="/HD_D">
+      <node ref="LED10" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED11" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="11" name="/HD_D2">
+      <node ref="LED20" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED21" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="12" name="/IO0_">
+      <node ref="IC2" pin="12" pinfunction="IO0" pintype="bidirectional"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="13" name="/IO1_">
+      <node ref="IC2" pin="13" pinfunction="IO1" pintype="bidirectional"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="14" name="/IO2_">
+      <node ref="IC2" pin="5" pinfunction="IO2" pintype="bidirectional"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="15" name="/IO3_">
+      <node ref="IC2" pin="6" pinfunction="IO3" pintype="bidirectional"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="16" name="/IO4_">
+      <node ref="IC2" pin="18" pinfunction="IO4" pintype="bidirectional"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="17" name="/IO5_">
+      <node ref="IC2" pin="19" pinfunction="IO5" pintype="bidirectional"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="18" name="/IO6_">
+      <node ref="IC2" pin="20" pinfunction="IO6" pintype="bidirectional"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="19" name="/IO7_SDI">
+      <node ref="IC2" pin="21" pinfunction="IO7" pintype="bidirectional"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="LED1" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="20" name="/IO8_WLED">
+      <node ref="IC2" pin="22" pinfunction="IO8" pintype="bidirectional"/>
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="21" name="/IO9_BOOT">
+      <node ref="IC2" pin="23" pinfunction="IO9" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/IO10_CKI">
+      <node ref="IC2" pin="16" pinfunction="IO10" pintype="bidirectional"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="LED1" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="23" name="/UART_RX">
+      <node ref="IC2" pin="30" pinfunction="RXD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="/UART_TX">
+      <node ref="IC2" pin="31" pinfunction="TXD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="/USBD+">
+      <node ref="IC2" pin="27" pinfunction="USB_D+_IO19" pintype="bidirectional"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/USBD-">
+      <node ref="IC2" pin="26" pinfunction="USB_D-_IO18" pintype="bidirectional"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="/VBUS">
+      <node ref="CN1" pin="P$A4" pinfunction="VBUS1" pintype="bidirectional"/>
+      <node ref="CN1" pin="P$A9" pinfunction="VBUS2" pintype="bidirectional"/>
+      <node ref="CN1" pin="P$B4" pinfunction="VBUS3" pintype="bidirectional"/>
+      <node ref="CN1" pin="P$B9" pinfunction="VBUS4" pintype="bidirectional"/>
+      <node ref="PL1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="28" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="CN1" pin="P$A1" pinfunction="GND1" pintype="bidirectional"/>
+      <node ref="CN1" pin="P$A12" pinfunction="GND2" pintype="bidirectional"/>
+      <node ref="CN1" pin="P$B1" pinfunction="GND3" pintype="bidirectional"/>
+      <node ref="CN1" pin="P$B12" pinfunction="GND4" pintype="bidirectional"/>
+      <node ref="IC1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="36" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="37" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="40" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="41" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="42" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="43" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="44" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="45" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="46" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="47" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="48" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="49_1" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="49_2" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="49_3" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="49_4" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="49_5" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="49_6" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="49_7" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="49_8" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="49_9" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="50" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="51" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="52" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="53" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="LED1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED10" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED11" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED12" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED13" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED14" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED15" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED16" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED17" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED18" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED19" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED2" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED20" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED21" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED22" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED23" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED24" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED3" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED4" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED5" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED6" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED7" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED8" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED9" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(CN1-PadP$A5)">
+      <node ref="CN1" pin="P$A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(CN1-PadP$B5)">
+      <node ref="CN1" pin="P$B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED2" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(LED1-Pad3)">
+      <node ref="LED1" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED2" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(LED2-Pad2)">
+      <node ref="LED2" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED3" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(LED2-Pad3)">
+      <node ref="LED2" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED3" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(LED3-Pad2)">
+      <node ref="LED3" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED4" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(LED3-Pad3)">
+      <node ref="LED3" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED4" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(LED4-Pad2)">
+      <node ref="LED4" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED5" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(LED4-Pad3)">
+      <node ref="LED4" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED5" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(LED5-Pad2)">
+      <node ref="LED5" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED6" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(LED5-Pad3)">
+      <node ref="LED5" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED6" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(LED6-Pad2)">
+      <node ref="LED6" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED7" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(LED6-Pad3)">
+      <node ref="LED6" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED7" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(LED7-Pad2)">
+      <node ref="LED7" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED8" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(LED7-Pad3)">
+      <node ref="LED7" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED8" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(LED8-Pad2)">
+      <node ref="LED8" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED9" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(LED8-Pad3)">
+      <node ref="LED8" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED9" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(LED10-Pad4)">
+      <node ref="LED10" pin="4" pinfunction="SDI" pintype="input"/>
+      <node ref="LED9" pin="3" pinfunction="SDO" pintype="output"/>
+    </net>
+    <net code="50" name="Net-(LED10-Pad5)">
+      <node ref="LED10" pin="5" pinfunction="CKI" pintype="input"/>
+      <node ref="LED9" pin="2" pinfunction="CKO" pintype="output"/>
+    </net>
+    <net code="51" name="Net-(LED11-Pad2)">
+      <node ref="LED11" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED12" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(LED11-Pad3)">
+      <node ref="LED11" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED12" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(LED12-Pad2)">
+      <node ref="LED12" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED13" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(LED12-Pad3)">
+      <node ref="LED12" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED13" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(LED13-Pad2)">
+      <node ref="LED13" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED14" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(LED13-Pad3)">
+      <node ref="LED13" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED14" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="57" name="Net-(LED14-Pad2)">
+      <node ref="LED14" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED15" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(LED14-Pad3)">
+      <node ref="LED14" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED15" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(LED15-Pad2)">
+      <node ref="LED15" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED16" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(LED15-Pad3)">
+      <node ref="LED15" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED16" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(LED16-Pad2)">
+      <node ref="LED16" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED17" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="62" name="Net-(LED16-Pad3)">
+      <node ref="LED16" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED17" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="63" name="Net-(LED17-Pad2)">
+      <node ref="LED17" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED18" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="64" name="Net-(LED17-Pad3)">
+      <node ref="LED17" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED18" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="65" name="Net-(LED18-Pad2)">
+      <node ref="LED18" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED19" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(LED18-Pad3)">
+      <node ref="LED18" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED19" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(LED19-Pad2)">
+      <node ref="LED19" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED20" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(LED19-Pad3)">
+      <node ref="LED19" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED20" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="69" name="Net-(LED21-Pad2)">
+      <node ref="LED21" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED22" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="70" name="Net-(LED21-Pad3)">
+      <node ref="LED21" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED22" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(LED22-Pad2)">
+      <node ref="LED22" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED23" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(LED22-Pad3)">
+      <node ref="LED22" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED23" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(LED23-Pad2)">
+      <node ref="LED23" pin="2" pinfunction="CKO" pintype="output"/>
+      <node ref="LED24" pin="5" pinfunction="CKI" pintype="input"/>
+    </net>
+    <net code="74" name="Net-(LED23-Pad3)">
+      <node ref="LED23" pin="3" pinfunction="SDO" pintype="output"/>
+      <node ref="LED24" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(LED25-Pad1)">
+      <node ref="LED25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(LED25-Pad2)">
+      <node ref="LED25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(LED26-Pad2)">
+      <node ref="LED26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(LED27-Pad2)">
+      <node ref="LED27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(LED28-Pad2)">
+      <node ref="LED28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(LED29-Pad2)">
+      <node ref="LED29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(LED30-Pad2)">
+      <node ref="LED30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(LED31-Pad2)">
+      <node ref="LED31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(LED32-Pad2)">
+      <node ref="LED32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="84" name="unconnected-(CN1-PadP$A2)">
+      <node ref="CN1" pin="P$A2" pinfunction="TX1+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(CN1-PadP$A3)">
+      <node ref="CN1" pin="P$A3" pinfunction="TX1-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(CN1-PadP$A8)">
+      <node ref="CN1" pin="P$A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(CN1-PadP$A10)">
+      <node ref="CN1" pin="P$A10" pinfunction="RX2-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(CN1-PadP$A11)">
+      <node ref="CN1" pin="P$A11" pinfunction="RX2+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(CN1-PadP$B2)">
+      <node ref="CN1" pin="P$B2" pinfunction="TX2+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(CN1-PadP$B3)">
+      <node ref="CN1" pin="P$B3" pinfunction="TX2-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(CN1-PadP$B8)">
+      <node ref="CN1" pin="P$B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(CN1-PadP$B10)">
+      <node ref="CN1" pin="P$B10" pinfunction="RX1-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(CN1-PadP$B11)">
+      <node ref="CN1" pin="P$B11" pinfunction="RX1+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(IC1-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(IC2-Pad4)">
+      <node ref="IC2" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(IC2-Pad7)">
+      <node ref="IC2" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(IC2-Pad9)">
+      <node ref="IC2" pin="9" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(IC2-Pad10)">
+      <node ref="IC2" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(IC2-Pad15)">
+      <node ref="IC2" pin="15" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(IC2-Pad17)">
+      <node ref="IC2" pin="17" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(IC2-Pad24)">
+      <node ref="IC2" pin="24" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(IC2-Pad25)">
+      <node ref="IC2" pin="25" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(IC2-Pad28)">
+      <node ref="IC2" pin="28" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(IC2-Pad29)">
+      <node ref="IC2" pin="29" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(IC2-Pad32)">
+      <node ref="IC2" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(IC2-Pad33)">
+      <node ref="IC2" pin="33" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(IC2-Pad34)">
+      <node ref="IC2" pin="34" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(IC2-Pad35)">
+      <node ref="IC2" pin="35" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(J1-Pad9)">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(J2-Pad9)">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

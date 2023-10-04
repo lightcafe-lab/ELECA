@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project created="2023/09/01 16:52:56" version="1.0" updated="2023/10/03 20:22:20" name="eleca-acryl-2_2mm-stand">
+ <machine type="EtcherLaserPro" laser="ETCHERPRO_CO2_30W"/>
+ <settings>
+  <workarea width="475" height="310"/>
+  <driverPower y="800" x="400"/>
+ </settings>
+ <svg viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px" xml:space="preserve" version="1.2" xmlns="http://www.w3.org/2000/svg" x="0px">
+  <defs>
+   <symbol rasterDpi="254" imagedata-type="vectorStroke" laserPower="80" id="dde1c047-57e6-49fb-b89b-9d71ba5e9b3f" enable="1" times="1" hatch="horizontal(0.10)" headSpeed="600" name="203-v3-edge-main.dxf">
+    <g>
+     <path d="M-104,-49.5C-104,-49.2239,-103.776,-49,-103.5,-49" fill="none" stroke="#000000"/>
+     <path d="M-105.5,-37.2L-101,-37.2" fill="none" stroke="#000000"/>
+     <path d="M-84,-49C-84.5523,-49,-85,-48.5523,-85,-48" fill="none" stroke="#000000"/>
+     <path d="M-101,-46C-101,-46.2761,-101.224,-46.5,-101.5,-46.5" fill="none" stroke="#000000"/>
+     <path d="M-100,-29.5L-100,-3.1576" fill="none" stroke="#000000"/>
+     <path d="M-99,-48L-99,-30.5" fill="none" stroke="#000000"/>
+     <path d="M-103.5,-49L-100,-49" fill="none" stroke="#000000"/>
+     <path d="M-103.5,-52C-103.776,-52,-104,-51.7761,-104,-51.5" fill="none" stroke="#000000"/>
+     <path d="M-99.5,-30C-99.2239,-30,-99,-30.2239,-99,-30.5" fill="none" stroke="#000000"/>
+     <path d="M-22.5,-4L-80,-4" fill="none" stroke="#000000"/>
+     <path d="M-99.5,-30C-99.7761,-30,-100,-29.7761,-100,-29.5" fill="none" stroke="#000000"/>
+     <path d="M-85,-48L-85,-25" fill="none" stroke="#000000"/>
+     <path d="M-80,-2.1576L-22.5,-2.1576" fill="none" stroke="#000000"/>
+     <path d="M-80,-4L-81,-4" fill="none" stroke="#000000"/>
+     <path d="M-22.5,-52L-103.5,-52" fill="none" stroke="#000000"/>
+     <path d="M-84,-49L-22.5,-49" fill="none" stroke="#000000"/>
+     <path d="M-80,-2.1576L-99,-2.1576" fill="none" stroke="#000000"/>
+     <path d="M-99,-48C-99,-48.5523,-99.4477,-49,-100,-49" fill="none" stroke="#000000"/>
+     <path d="M-101.5,-37.2C-101.224,-37.2,-101,-37.4239,-101,-37.7" fill="none" stroke="#000000"/>
+     <path d="M-105.5,-46.5L-101.5,-46.5" fill="none" stroke="#000000"/>
+     <path d="M-106,-36.7L-106,-36.2" fill="none" stroke="#000000"/>
+     <path d="M-101.5,-37.2L-105.5,-37.2" fill="none" stroke="#000000"/>
+     <path d="M-106,-47L-106,-47.5" fill="none" stroke="#000000"/>
+     <path d="M-20,-53.5C-20,-53.7761,-20.2239,-54,-20.5,-54" fill="none" stroke="#000000"/>
+     <path d="M-22.5,-2.1576C-22.2239,-2.1576,-22,-2.38145,-22,-2.6576" fill="none" stroke="#000000"/>
+     <path d="M-81,-22L-81,-17" fill="none" stroke="#000000"/>
+     <path d="M-84,-5C-84,-4.44772,-83.5523,-4,-83,-4" fill="none" stroke="#000000"/>
+     <path d="M-106,-47C-106,-46.7239,-105.776,-46.5,-105.5,-46.5" fill="none" stroke="#000000"/>
+     <path d="M-104,-51.5L-104,-49.5" fill="none" stroke="#000000"/>
+     <path d="M-81,-4L-83,-4" fill="none" stroke="#000000"/>
+     <path d="M-101,-46L-101,-37.7" fill="none" stroke="#000000"/>
+     <path d="M-105.5,-37.2C-105.776,-37.2,-106,-36.9761,-106,-36.7" fill="none" stroke="#000000"/>
+     <path d="M-100,-3.1576C-100,-2.60531,-99.5523,-2.1576,-99,-2.1576" fill="none" stroke="#000000"/>
+     <path d="M-84,-14L-84,-5" fill="none" stroke="#000000"/>
+     <path d="M-22,-51.5C-22,-51.7761,-22.2239,-52,-22.5,-52" fill="none" stroke="#000000"/>
+     <path d="M-22.5,-49C-22.2239,-49,-22,-49.2239,-22,-49.5" fill="none" stroke="#000000"/>
+     <path d="M-22,-2.6576L-22,-3.5" fill="none" stroke="#000000"/>
+     <path d="M-22,-49.5L-22,-51.5" fill="none" stroke="#000000"/>
+     <path d="M-22,-3.5C-22,-3.77614,-22.2239,-4,-22.5,-4" fill="none" stroke="#000000"/>
+     <path d="M-105.5,-54C-105.776,-54,-106,-53.7761,-106,-53.5" fill="none" stroke="#000000"/>
+     <path d="M-82,-23L-84,-23" fill="none" stroke="#000000"/>
+     <path d="M-85,-24L-85,-25" fill="none" stroke="#000000"/>
+     <path d="M-82,-16L-83,-16" fill="none" stroke="#000000"/>
+     <path d="M-84,-15L-84,-14" fill="none" stroke="#000000"/>
+     <path d="M-85,-24C-85,-23.4477,-84.5523,-23,-84,-23" fill="none" stroke="#000000"/>
+     <path d="M-81,-22C-81,-22.5523,-81.4477,-23,-82,-23" fill="none" stroke="#000000"/>
+     <path d="M-82,-16C-81.4477,-16,-81,-16.4477,-81,-17" fill="none" stroke="#000000"/>
+     <path d="M-83,-16C-83.5523,-16,-84,-15.5523,-84,-15" fill="none" stroke="#000000"/>
+    </g>
+   </symbol>
+   <symbol rasterDpi="254" imagedata-type="text" laserPower="80" id="0978d3e9-2a9c-403c-97cb-507d4c948bae" enable="1" times="1" hatch="horizontal(0.10)" headSpeed="10000" name="">
+    <g>
+     <text font-family="Arial" font-style="Regular" fill="#333333" font-weight="Regular" y="-1" x="0" font-size="-1">部署名</text>
+    </g>
+   </symbol>
+   <symbol rasterDpi="254" imagedata-type="text" laserPower="70" id="be4ec5df-045d-4a21-933b-48044431ffeb" enable="1" times="1" hatch="horizontal(0.10)" headSpeed="10000" name="">
+    <g>
+     <text font-family="Arial" font-style="Regular" fill="#333333" font-weight="Regular" y="1" x="0" font-size="1">名 刺　花 子</text>
+    </g>
+   </symbol>
+   <symbol rasterDpi="254" imagedata-type="vectorStroke" laserPower="80" id="c59b477f-199b-40d0-8496-00844371b857" enable="1" times="1" hatch="horizontal(0.10)" headSpeed="600" name="203-v3-edge-outer.dxf">
+    <g>
+     <path d="M-105,-54L-21,-54L-20.9128,-53.9962L-20.8264,-53.9848L-20.7412,-53.9659L-20.658,-53.9397L-20.5774,-53.9063L-20.5,-53.866L-20.4264,-53.8192L-20.3572,-53.766L-20.2929,-53.7071L-20.234,-53.6428L-20.1808,-53.5736L-20.134,-53.5L-20.0937,-53.4226L-20.0603,-53.342L-20.0341,-53.2588L-20.0152,-53.1736L-20.0038,-53.0872L-20,-53L-20,-1L-20.0038,-0.912844L-20.0152,-0.826352L-20.0341,-0.741181L-20.0603,-0.65798L-20.0937,-0.577382L-20.134,-0.5L-20.1808,-0.426424L-20.234,-0.357212L-20.2929,-0.292893L-20.3572,-0.233956L-20.4264,-0.180848L-20.5,-0.133975L-20.5774,-0.0936922L-20.658,-0.0603074L-20.7412,-0.0340742L-20.8264,-0.0151923L-20.9128,-0.0038053L-21,0L-105,0L-105.087,-0.0038053L-105.174,-0.0151923L-105.259,-0.0340742L-105.342,-0.0603074L-105.423,-0.0936922L-105.5,-0.133975L-105.574,-0.180848L-105.643,-0.233956L-105.707,-0.292893L-105.766,-0.357212L-105.819,-0.426424L-105.866,-0.5L-105.906,-0.577382L-105.94,-0.65798L-105.966,-0.741181L-105.985,-0.826352L-105.996,-0.912844L-106,-1L-106,-53L-105.996,-53.0872L-105.985,-53.1736L-105.966,-53.2588L-105.94,-53.342L-105.906,-53.4226L-105.866,-53.5L-105.819,-53.5736L-105.766,-53.6428L-105.707,-53.7071L-105.643,-53.766L-105.574,-53.8192L-105.5,-53.866L-105.423,-53.9063L-105.342,-53.9397L-105.259,-53.9659L-105.174,-53.9848L-105.087,-53.9962L-105,-54" fill="none" stroke="#000000"/>
+    </g>
+   </symbol>
+  </defs>
+  <use rotatedAngle="0" transform="matrix(1,0,0,1,196.346,169.209)" xlink:href="#dde1c047-57e6-49fb-b89b-9d71ba5e9b3f"/>
+  <use rotatedAngle="0" transform="matrix(-0.174822,0,0,0.174822,174.312,136.384)" y="1" xlink:href="#0978d3e9-2a9c-403c-97cb-507d4c948bae"/>
+  <use rotatedAngle="0" transform="matrix(-2.7811,0,0,2.7811,174.853,144.119)" y="-1" xlink:href="#be4ec5df-045d-4a21-933b-48044431ffeb"/>
+  <use rotatedAngle="0" transform="matrix(1,0,0,1,196.313,169.209)" xlink:href="#c59b477f-199b-40d0-8496-00844371b857"/>
+ </svg>
+</project>
