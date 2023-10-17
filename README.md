@@ -2,7 +2,7 @@
 ELECA（エレカ）は**CC BY-SA4.0ライセンス**で**名刺デザイン**の**Arduino互換機**です<br>
 LIGHTCAFE LAB ELECA 作品ページはこちら<br>
 https://lab.lightcafe.co.jp/work/eleca<br>
-
+![eleca-thumbnail](https://github.com/lightcafe-lab/ELECA/assets/121926742/9d96b62e-3546-4980-b159-55e819af957f)<br>
 ## firmware
 ELECAに書き込むArduinoのサンプルスケッチです<br>
 給電すると動作がはじまります<br>
