@@ -3,6 +3,7 @@ ELECA（エレカ）は**CC BY-SA4.0ライセンス**で**名刺デザイン**�
 LIGHTCAFE LAB ELECA 作品ページはこちら<br>
 https://lab.lightcafe.co.jp/work/eleca<br>
 
+![ELECA](image/eleca.png)
 ## firmware
 ELECAに書き込むArduinoのサンプルスケッチです<br>
 給電すると動作がはじまります<br>
