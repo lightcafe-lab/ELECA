@@ -25,13 +25,13 @@
 #include <APA102.h>
 
 // Define which pins to use.
-const uint8_t dataPin = 7;
-const uint8_t clockPin = 10;
+const byte dataPin = 7;
+const byte clockPin = 10;
 const byte interruptPin = 0;
 const byte ledR = 1;
 const byte ledG = 2;
 const byte ledB = 3;
-int led = D8;
+const byte ledW = 8;
 
 // Create an object for writing to the LED strip.
 APA102<dataPin, clockPin> ledStrip;
@@ -70,31 +70,31 @@ void mode_sw_func() {
   mode++;
   if(mode==1){
     fled_mode=0;
-    digitalWrite(led, HIGH);   // turn the LED on 
-    digitalWrite(ledR, LOW);   // turn the LED on 
-    digitalWrite(ledG, HIGH);   // turn the LED on 
-    digitalWrite(ledB, HIGH);   // turn the LED on 
+    digitalWrite(ledW, HIGH);  
+    digitalWrite(ledR, LOW);  
+    digitalWrite(ledG, HIGH); 
+    digitalWrite(ledB, HIGH); 
   }
   if(mode==2){
     fled_mode=0;
-    digitalWrite(led, LOW);   // turn the LED on 
-    digitalWrite(ledR, HIGH);   // turn the LED on 
-    digitalWrite(ledG, LOW);   // turn the LED on 
-    digitalWrite(ledB, HIGH);   // turn the LED on 
+    digitalWrite(ledW, LOW);   
+    digitalWrite(ledR, HIGH); 
+    digitalWrite(ledG, LOW);  
+    digitalWrite(ledB, HIGH); 
   }
   if(mode==3){
     fled_mode=1;    
-    digitalWrite(led, HIGH);   // turn the LED on       
-    digitalWrite(ledR, HIGH);   // turn the LED on 
-    digitalWrite(ledG, HIGH);   // turn the LED on 
-    digitalWrite(ledB, LOW);   // turn the LED on 
+    digitalWrite(ledW, HIGH);      
+    digitalWrite(ledR, HIGH); 
+    digitalWrite(ledG, HIGH); 
+    digitalWrite(ledB, LOW);  
   }
   if(mode==4){
     fled_mode=1;    
-    digitalWrite(led, LOW);   // turn the LED on   
-    digitalWrite(ledR, HIGH);   // turn the LED on 
-    digitalWrite(ledG, HIGH);   // turn the LED on 
-    digitalWrite(ledB, HIGH);   // turn the LED on 
+    digitalWrite(ledW, LOW);   
+    digitalWrite(ledR, HIGH); 
+    digitalWrite(ledG, HIGH); 
+    digitalWrite(ledB, HIGH); 
   }
   if(mode==5)mode=0;
     }
@@ -102,8 +102,8 @@ void mode_sw_func() {
 
 void setup()
 {
-  pinMode(led, OUTPUT);
-  digitalWrite(led, HIGH);   // turn the LED on 
+  pinMode(ledW, OUTPUT);
+  digitalWrite(ledW, HIGH);   // turn the LED on 
 //    pinMode(ledR, OUTPUT);
 //  digitalWrite(ledR, HIGH);   // turn the LED on 
 //    pinMode(ledG, OUTPUT);
@@ -166,8 +166,7 @@ rgb_color hsvToRgb(uint16_t h, uint8_t s, uint8_t v)
     }
     return rgb_color(r, g, b);
 }
-int loopcount =0;
-volatile int state=LOW;
+
 void loop()
 {
 
