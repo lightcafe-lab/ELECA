@@ -3,23 +3,15 @@
 #include "SPI.h"
 
 //pov_handshake_speed
-#define HS_SPD_NRML 1000
-#define CHAR_LC_WIDTH 355
+#define CHAR_LC_WIDTH 50
 #define CHAR_LC_HEIGHT 16
-#define POV_INV_TIME_MS 500
-
-
-LIS3DH myIMU; //Default constructor is I2C, addr 0x19.
 
 // Define which pins to use.
-const uint8_t dataPin = 7;
-const uint8_t clockPin = 10;
+const byte dataPin = 7;
+const byte clockPin = 10;
 const byte interruptPin = 0;
-///const byte swPin = 0;
-const byte ledR = 1;
-const byte ledG = 2;
-const byte ledB = 3;
 const byte ledW = 8;
+
 // Create an object for writing to the LED strip.
 APA102<dataPin, clockPin> ledStrip;
 
@@ -28,7 +20,7 @@ const uint16_t ledCount = 24;
 
 
 // Set the brightness to use (the maximum is 31).
-const uint8_t brightness = 1;
+const uint8_t brightness = 2;
 
 // We define "power" in this sketch to be the product of the
 // 8-bit color channel value and the 5-bit brightness register.
@@ -44,7 +36,13 @@ const uint16_t minPower = 1;
 // LED of the strip.
 const float multiplier = pow(maxPower / minPower, 1.0 / (ledCount - 1));
 
-
+bool pov_init_flag=1;
+bool pov_inv_flag=0;
+long handShakeSpeedMs=0;
+// Create a buffer for holding the colors (3 bytes per color).
+rgb_color display_colors[ledCount];
+rgb_color preset__cw_colors[ledCount][CHAR_LC_WIDTH];
+rgb_color preset_ccw_colors[ledCount][CHAR_LC_WIDTH];
 
 int pov_disp_buf[CHAR_LC_HEIGHT][CHAR_LC_WIDTH]={
   {0,0,2,2,0,3,3,0,4,4,0,5,5,0,6,6,0,7,7,0,8,8,0,0,0,0,0,0,0,0,0,0,0,0},
@@ -69,14 +67,6 @@ uint16_t hsv_b[9][3]={
    {  0,255,255},  {300,255,255},  {190,255,255}, //red,purple,skyblue
    {240,255,255},  { 70,255,255},  {120,255,255}  //blue,palegreen,green
 };
-
-bool pov_init_flag=1;
-bool pov_inv_flag=0;
-long handShakeSpeedMs=0;
-// Create a buffer for holding the colors (3 bytes per color).
-rgb_color display_colors[ledCount];
-rgb_color preset__cw_colors[ledCount][CHAR_LC_WIDTH];
-rgb_color preset_ccw_colors[ledCount][CHAR_LC_WIDTH];
 
 void pov_setup(){
   for (int j=0; j < CHAR_LC_WIDTH-1; j++) {
@@ -146,20 +136,17 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
   delay(1000); 
+
   //relax...
-  //Serial.println("Processor came out of reset.\n");
   uint8_t time = millis() >> 5;
   for(uint16_t i = 0; i < ledCount; i++)
   {
     uint8_t p = time - i * 8;
-    display_colors[i] = hsvToRgb(0,0,0);//(uint32_t)p * 359 / 256, 255, 255);  
+    display_colors[i] = hsvToRgb(0,0,0);
   }
 
   ledStrip.write(display_colors, ledCount, brightness);
   
-  //Call .begin() to configure the IMU
-  Wire.setClock(400000);
-  myIMU.begin();
   pov_setup();
 }
 
