@@ -25,9 +25,9 @@ ELECA付属のハードウェアです<br>
 
 *acryl-cover*<br>
 ELECAの専用アクリルカバーです<br>
-標準的なdxfファイルとsmartDIYsのレーザー加工機で使えるプロジェクトファイルがあります<br>
+
 ## pcb
-KiCad (v6.0.10)を使用した回路図と基板図です<br>
+KiCad (v8.0.3)を使用した回路図と基板図です<br>
 
 *pcb-eleca*<br>
 ELECAのメイン基板<br>
